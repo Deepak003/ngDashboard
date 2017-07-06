@@ -198,7 +198,7 @@
 --><strong><a href="/twbs/bootstrap" data-pjax="#js-repo-pjax-container">bootstrap</a></strong>
 
   <span class="page-context-loader">
-    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+    <img alt="" height="16" src="https://assets-cdn.github.com/ngDashboard/images/spinners/octocat-spinner-32.gif" width="16" />
   </span>
 
 </h1>

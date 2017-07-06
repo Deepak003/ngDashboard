@@ -18,15 +18,18 @@ function ($rootScope, $scope, $state, $location, loginService, Flash, apiService
 
         //access login
         vm.login = function (data) {
-            if (data.Username == "admin") {
+			$rootScope.userName = data.Username;
+			alert($rootScope.userName);
+            //if (data.Username == "admin") {
                 if (data.Password == "admin") {
                     $state.go('app.dashboard');
                 }
                 else
                     Flash.create('danger', 'Invalid Password', 'large-text');
-            }
+            /*}
             else
-                Flash.create('danger', 'Invalid Username', 'large-text');
+                Flash.create('danger', 'Invalid Username', 'large-text');*/
+			$state.go('app.dashboard');
         };
 
         //get registration details
